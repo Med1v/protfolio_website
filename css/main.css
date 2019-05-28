@@ -134,6 +134,42 @@ textarea {
     box-shadow: 5px 5px lightgray;
 }
 
+.shadow-text {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.parallax-text {
+    position: relative; 
+    top: -400px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: -10%;
+}
+
+.content-line::before {
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 12px 30px;
+    /* position: absolute; */
+    top: 50%;
+    width: 80px;
+    /* zoom: 1; */
+    background: #fff;
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.content-line::after {
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 12px 30px;
+    /* position: absolute; */
+    top: 50%;
+    width: 80px;
+    /* zoom: 1; */
+    background: #fff;
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 5rem;
