@@ -113,7 +113,7 @@ textarea {
 
 /* Feature dividers */
 .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 0rem 0; /* Space out the Bootstrap <hr> more *//* was 3 rem */
 }
 
 .featurette-heading {
@@ -121,10 +121,18 @@ textarea {
     line-height: 1;
     letter-spacing: -.05rem;
 }
-/* 
+
+.featurette-image {
+    align-self: center;
+}
+
 .featurette {
-    max-height: 300px;
-} */
+    padding: 30px;
+    border: 2px solid #222;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px lightgray;
+}
 
 @media (min-width: 62em) {
     .featurette-heading {

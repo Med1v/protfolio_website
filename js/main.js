@@ -30,7 +30,7 @@ cssList.forEach(el => {
 
 //main page items
 var shift = 50;
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 4; i++) {
     var sheet = document.createElement('style')
     sheet.innerHTML = "#reveal" + i + ` {
         opacity: 0.5;
