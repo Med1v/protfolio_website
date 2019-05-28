@@ -159,6 +159,7 @@ textarea {
 
 #item_website {
     background-image: url(../img/planet-earth.jpg);
+    /* height: 500px; */
 }
 
 .portfolio-item {
